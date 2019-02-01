@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="9px" viewBox="0 0 32 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow Back</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="110-Orders.-User-data" transform="translate(-55.000000, -154.000000)" fill="#249CD3">
+            <g id="Back" transform="translate(55.000000, 150.000000)">
+                <path d="M2.34727182,7.4375 L31.3125,7.4375 C31.6921958,7.4375 32,7.74530423 32,8.125 C32,8.50469577 31.6921958,8.8125 31.3125,8.8125 L2.34727182,8.8125 L4.61113591,11.0763641 C4.87962136,11.3448495 4.87962136,11.7801505 4.61113591,12.0486359 C4.34265046,12.3171214 3.90734954,12.3171214 3.63886409,12.0486359 L0.201364088,8.61113591 C-0.0671213626,8.34265046 -0.0671213626,7.90734954 0.201364088,7.63886409 L3.63886409,4.20136409 C3.90734954,3.93287864 4.34265046,3.93287864 4.61113591,4.20136409 C4.87962136,4.46984954 4.87962136,4.90515046 4.61113591,5.17363591 L2.34727182,7.4375 Z" id="Arrow-Back"></path>
+            </g>
+        </g>
+    </g>
+</svg>

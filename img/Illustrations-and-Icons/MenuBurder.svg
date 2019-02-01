@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="24px" viewBox="0 0 32 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu Burder</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="m/Header" transform="translate(-10.000000, -18.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M10,41 C10,40.4477153 10.4523621,40 10.9927864,40 L41.0072136,40 C41.5555144,40 42,40.4438648 42,41 C42,41.5522847 41.5476379,42 41.0072136,42 L10.9927864,42 C10.4444856,42 10,41.5561352 10,41 Z M10,30 C10,29.4477153 10.4523621,29 10.9927864,29 L41.0072136,29 C41.5555144,29 42,29.4438648 42,30 C42,30.5522847 41.5476379,31 41.0072136,31 L10.9927864,31 C10.4444856,31 10,30.5561352 10,30 Z M10,19 C10,18.4477153 10.4523621,18 10.9927864,18 L41.0072136,18 C41.5555144,18 42,18.4438648 42,19 C42,19.5522847 41.5476379,20 41.0072136,20 L10.9927864,20 C10.4444856,20 10,19.5561352 10,19 Z" id="Menu-Burder"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1504.83">
+  <!--<link rel="stylesheet" href="../css/animate.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../scss/style.css">
+  <link rel="stylesheet" href="../scss/responsive.css">
+  <link rel="stylesheet" href="../scss/fonts.css">
+
+  <link rel="stylesheet" href="../css/owl.carousel.min.css">
+  <link rel="stylesheet" href="../css/owl.theme.default.css">
+
+  <script src="../js/jquery.min.js"></script>
+
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/main.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="logo-block">
+        <div class="logo">
+          <a href="../html/index.html">
+            <figure>
+              <img alt="Alternative text" src="../img/Logo.svg"/>
+            </figure>
+          </a>
+        </div>
+        <p class="header-text">
+          Торговая платформа покупки и
+          продажи строительных материалов
+        </p>
+      </div>
+
+      <div class="info-block">
+        <p class="phone">
+          8 800 123-45-67
+        </p>
+        <div class="btn-group">
+          <a href="../html/reg.html" class="registrate">Зарегистрироваться</a>
+          <a href="../html/login.html" class="login">Войти</a>
+        </div>
+      </div>
+    </div>
+
+    <nav class="sub-menu navbar green-color white navbar-expand-lg navbar-light bg-light" >
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="../img/Illustrations-and-Icons/MenuBurder.svg" alt=""></span>
+      </button>
+
+      <button class="navbar-toggler navbar-mob" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="../img/MenuBurderGreen.svg" alt=""></span>
+      </button>
+      <div class="logo-mob">
+        <figure>
+          <a href="../html/index.html"><img src="../img/Logo.svg" alt=""></a>
+        </figure>
+      </div>
+      <div class="login-mob">
+        <fugure>
+          <a href="../html/login.html"><img src="../img/Illustrations-and-Icons/Icon/enter.png" alt=""></a>
+        </fugure>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar">
+          <li><a href="#">Торговые компании</a></li>
+          <li><a href="#">Строительные компании</a></li>
+          <li><a href="#">Производители</a></li>
+          <li><a href="#">О проекте</a></li>
+          <li><a href="#">Партнерская программа</a></li>
+        </ul>
+      </div>
+
+
+
+    </nav>
+
+    <div class="modal fade registrate__modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="offer-block offer-block__reg ">
+
+    <div class="reg-container">
+      <div class="offer-block__content  offer-block__content-reg">
+        <form class="request_form reg-form">
+          <h2>Регистрация</h2>
+          <span> <p> Уже зарегистрировались? <a href="../html/login.html">Войдите в личный кабинет</a> </p></span>
+
+          <div class="form-group request_content__item">
+            <div class="request__body">
+              <input id="name"  required>
+              <span class="highlight"></span>
+              <label for="name">Ваше имя</label>
+            </div>
+          </div>
+
+          <div class="form-group request_content__item">
+            <div class="request__body">
+              <input id="name"  required>
+              <span class="highlight"></span>
+              <label for="name">Название компании</label>
+            </div>
+          </div>
+
+          <div class="request__body">
+            <input type="text" required/>
+            <span class="highlight"></span>
+            <label>Телефон</label>
+          </div>
+
+          <div class="request__group">
+            <div class="request__body">
+              <input id="phone" name="phone" required="">
+              <span class="highlight"></span>
+              <label for="phone">Код</label>
+            </div>
+
+            <div class="request__body">
+              <a class="request__code" href="#">Получить код</a>
+            </div>
+          </div>
+
+
+          <div class="bottom-line">
+            <div class="check">
+              <label class="check__container">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <p>Я принимаю <a href="#">правила сайта по работе с данными пользователей </a></p>
+            </div>
+          </div>
+          <div class="check__btn">
+            <a href="reg.html" class="btn orange__btn" >Далее</a>
+          </div>
+        </form>
+
+      </div>
+      <div class="background"></div>
+
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="wrapper footer__wrapper">
+        <div class="first__block">
+          <ul>
+            <li class="logo">
+              <figure>
+                <img src="../img/Logo-gray.svg" alt="">
+              </figure>
+              <p class="small-text">Торговая платформа покупки и
+                продажи строительных материалов</p>
+            </li>
+            <li>
+              <p class="footer__text">© 2018 MySupl, Все права защищены.
+                Использование материалов с сайта только с согласия правообладателей</p>
+            </li>
+
+            <li>
+              <p class="footer__text">
+                г. Казань, ул. Шуртыгина д24, оф.1
+                ООО «Порт» ИНН/КПП: 1660315834 / 166001001, ОГРН: 1181690059528
+              </p>
+
+            </li>
+
+            <li class="document">
+              <a href="#">Правила сайта по работе с данными пользователей</a>
+            </li>
+          </ul>
+
+        </div>
+
+        <div class="second__block">
+          <ul>
+            <li><a href="#">Торговые компании</a></li>
+            <li><a href="#">Строительные компании</a></li>
+            <li><a href="#">Производители</a></li>
+          </ul>
+        </div>
+
+        <div class="third__block">
+          <ul>
+            <li class="phone">
+              <p>
+                8 800 123-45-67
+              </p>
+              <p class="small-text">Бесплатно по России</p>
+            </li>
+
+            <li>
+              <a class="grey__btn" href="#">Вход в личный кабинет</a>
+            </li>
+
+            <li>
+              <div class="social">
+                <a href="#">
+                  <img src="../img/Illustrations-and-Icons/Social/YouTube.svg" alt="">
+                </a>
+
+                <a href="#">
+                  <img src="../img/Illustrations-and-Icons/Social/facebook.svg" alt="">
+                </a>
+
+                <a href="#">
+                  <img src="../img/Illustrations-and-Icons/Social/Instagram.svg" alt="">
+                </a>
+              </div>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+</body>
+
+
+
+
+</html>

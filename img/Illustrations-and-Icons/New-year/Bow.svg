@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="103px" viewBox="0 0 102 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Bow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-10.2%" y="-3.9%" width="120.4%" height="107.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="000-Home" transform="translate(-455.000000, -2806.000000)">
+            <g id="Price" transform="translate(0.000000, 2670.000000)">
+                <g id="Group-2" transform="translate(170.000000, 109.000000)">
+                    <g id="2" transform="translate(179.000000, 0.000000)">
+                        <g id="Bow" filter="url(#filter-1)" transform="translate(291.337585, 290.811394) rotate(-45.000000) translate(-291.337585, -290.811394) translate(178.337585, -7.188606)">
+                            <g transform="translate(112.000000, 0.000000)">
+                                <g id="Ribbon" transform="translate(56.891383, 56.673263) rotate(45.000000) translate(-56.891383, -56.673263) translate(16.891383, 17.173263)" fill-rule="nonzero">
+                                    <polygon id="Path-2" fill="#990915" transform="translate(2.500000, 73.777100) scale(-1, -1) translate(-2.500000, -73.777100) " points="-2.27373675e-13 78.626709 5 73.5541992 -2.27373675e-13 68.9274902"></polygon>
+                                    <polygon id="Path-2" fill="#990915" transform="translate(74.000000, 2.500000) scale(1, -1) rotate(90.000000) translate(-74.000000, -2.500000) " points="71.5 7.84960938 76.5 2.5 71.5 -2.84960937"></polygon>
+                                    <polygon id="Path-2" fill="#DA1424" transform="translate(37.500000, 37.500000) scale(-1, -1) translate(-37.500000, -37.500000) " points="25.28125 75 75 25 75 5.25801624e-13 -2.13162821e-13 75"></polygon>
+                                </g>
+                                <g transform="translate(20.000000, 25.000000)" id="Path">
+                                    <path d="M31.6973064,18.4626263 C31.6973064,18.4626263 14.4181818,32.9397306 13.4841751,51.152862 L25.6262626,41.8127946 L29.3622896,55.8228956 C29.3622896,55.8228956 31.230303,32.9397306 38.7023569,23.1326599 C38.7023569,23.5996633 48.976431,3.51851852 31.6973064,18.4626263 Z" fill="#E31C2C" transform="translate(27.609087, 34.373358) rotate(10.000000) translate(-27.609087, -34.373358) "></path>
+                                    <path d="M46.6414141,18.4626263 C46.6414141,18.4626263 63.9205387,32.9397306 64.8545455,51.152862 L52.7124579,41.8127946 L48.976431,55.8228956 C48.976431,55.8228956 47.1084175,32.9397306 39.6363636,23.1326599 C39.1693603,23.5996633 28.8952862,3.51851852 46.6414141,18.4626263 Z" fill="#E31C2C" transform="translate(50.555758, 34.373358) rotate(-10.000000) translate(-50.555758, -34.373358) "></path>
+                                    <path d="M38.2353535,15.6606061 C38.2353535,24.0666667 22.0188006,31.0717172 10.8107198,31.0717172 C-0.397361057,31.0717172 0.863037295,24.0666667 0.863037295,15.6606061 C0.863037295,7.25454545 -0.397361057,0.249494949 10.8107198,0.249494949 C22.0188006,0.249494949 38.2353535,7.25454545 38.2353535,15.6606061 Z" fill="#FF0015"></path>
+                                    <path d="M37.7683502,15.6606061 C37.7683502,24.0666667 53.9849031,31.0717172 65.192984,31.0717172 C76.4010648,31.0717172 75.1406664,24.0666667 75.1406664,15.6606061 C75.1406664,7.25454545 76.4010648,0.249494949 65.192984,0.249494949 C53.9849031,0.249494949 37.7683502,7.25454545 37.7683502,15.6606061 Z" fill="#FF0015"></path>
+                                    <path d="M44.7734007,19.396633 C44.7734007,23.1326599 41.9713805,25.9346801 38.2353535,25.9346801 C34.4993266,25.9346801 31.6973064,23.1326599 31.6973064,19.396633 C31.6973064,15.6606061 34.4993266,12.8585859 38.2353535,12.8585859 C41.5043771,12.8585859 44.7734007,15.6606061 44.7734007,19.396633 Z" fill="#A9121E"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

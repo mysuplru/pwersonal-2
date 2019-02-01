@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="6px" viewBox="0 0 16 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Close eye</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon/Close-Eye" transform="translate(-4.000000, -12.000000)" fill="#A5A5A5" fill-rule="nonzero">
+            <path d="M4,12 L20,12 C17.6121855,15.6666665 14.9455186,17.5 12,17.5 C9.05448135,17.5 6.38781465,15.6666665 4,12 Z M5.20524785,12 C7.3198387,15.0377155 9.57975095,16.5 12,16.5 C14.4202491,16.5 16.6801613,15.0377155 18.794752,12 C15.0991211,12 7.11474609,12 5.20524785,12 Z" id="Close-eye"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta content="text/css" http-equiv="Content-Style-Type"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="Generator" content="Cocoa HTML Writer"/>
+  <meta name="CocoaVersion" content="1504.83"/>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"/>
+  <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="../scss/style.css"/>
+  <link rel="stylesheet" href="../scss/fonts.css"/>
+  <link rel="stylesheet" href="../scss/responsive.css"/>
+
+  <link rel="stylesheet" href="../css/animate.css"/>
+  <link rel="stylesheet" href="../css/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="../css/owl.theme.default.css"/>
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/main.js"></script>
+  <title>index</title>
+
+</head>
+<body>
+
+<header>
+  <div class="header">
+    <div class="logo-block">
+      <div class="logo">
+        <a href="../html/index.html">
+          <figure>
+            <img alt="Alternative text" src="../img/Logo.svg"/>
+          </figure>
+        </a>
+      </div>
+      <p class="header-text">
+        Торговая платформа покупки и
+        продажи строительных материалов
+      </p>
+    </div>
+
+    <div class="info-block">
+      <p class="phone">
+        8 800 123-45-67
+      </p>
+      <div class="btn-group">
+        <a href="../html/reg-1-step.html" class="registrate">Зарегистрироваться</a>
+        <a href="../html/login.html" class="login">Войти</a>
+      </div>
+    </div>
+  </div>
+
+  <nav class="sub-menu  navbar navbar-expand-lg navbar-light bg-light" >
+    <div class="navbar-body">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon my-img"></span>
+      </button>
+
+      <button class="navbar-toggler navbar-mob" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><img src="../img/MenuBurderGreen.svg" alt=""></span>
+      </button>
+      <div class="logo-mob">
+        <figure>
+          <a href="../html/index.html"><img src="../img/Logo.svg" alt=""></a>
+        </figure>
+      </div>
+      <div class="login-mob">
+        <fugure>
+          <a href="../html/login.html"><img src="../img/Illustrations-and-Icons/Icon/enter.png" alt=""></a>
+        </fugure>
+      </div>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar navbar-index">
+        <li><a href="#">Торговые компании</a></li>
+        <li><a href="#">Строительные компании</a></li>
+        <li><a href="#">Производители</a></li>
+        <li><a href="#">О проекте</a></li>
+        <li><a href="#">Партнерская программа</a></li>
+      </ul>
+    </div>
+      </nav>
+
+  <div class="modal fade registrate__modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="viewport">
+
+  <div class="offer-block">
+    <div  class="wrapper">
+      <div class="offer-block__content">
+        <h2>
+          Более 3 870 компанией заказывают
+          стройматериалы здесь
+        </h2>
+        <p class="offer-block__text">
+          Запроси цены со всех поставщиков одной заявкой
+        </p>
+
+        <div class="tabs">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active show" id="home-tab" data-toggle="tab" href="#buy" role="tab" aria-controls="home" aria-selected="true">Купить</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#sell" role="tab" aria-controls="profile" aria-selected="false">Продать</a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane active" id="buy" role="tabpanel" aria-labelledby="home-tab">
+
+              <div class="tab-content__body">
+                <input type="text" placeholder="Что вы ищете?"/>
+                <button class="continue orange__btn">Продолжить</button>
+              </div>
+              <p class="small-text">Например, гипсокартон, ДСП, гибкая черепица</p>
+
+            </div>
+            <div class="tab-pane" id="sell" role="tabpanel" aria-labelledby="profile-tab">
+
+              <div class="tab-content__body">
+                <input placeholder="Что вы продаете?" type="text"/>
+                <button class="continue orange__btn">Продолжить</button>
+              </div>
+              <p class="small-text">Например, гипсокартон, ДСП, гибкая черепица</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper row">
+    <div class="advantages ">
+
+      <div class="item col-md-4 animated fadeInRight delay-1s">
+        <figure>
+          <img src="../img/Illustrations-and-Icons/Advantages/Debt.svg" alt=""/>
+        </figure>
+        <h3>
+          Выгодные цены
+        </h3>
+        <p>
+          Поставщики в 20 раз меньше тратят времени на обработку заказов снижая затраты на рекламу
+          в 10 раз, и не включают её в цену товара
+        </p>
+      </div>
+
+      <div class="item col-md-4 animated fadeInRight delay-2s">
+        <figure>
+          <img src="../img/Illustrations-and-Icons/Advantages/DeliveryMan.svg" alt="Alterntive text"/>
+        </figure>
+
+        <h3>
+          Проверенные поставщики
+        </h3>
+        <p>
+          При регистрации поставщики проходят верификацию, таким образом мы контролируем качество их работы
+        </p>
+      </div>
+
+      <div class="item col-md-4 animated fadeInRight delay-3s">
+        <figure>
+          <img src="../img/Illustrations-and-Icons/Advantages/Browser.svg" alt=""/>
+        </figure>
+        <h3>
+          Проверенные поставщики
+        </h3>
+        <p>
+          При регистрации поставщики проходят верификацию, таким образом мы контролируем качество их работы
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="economy">
+    <div class="wrapper">
+      <h2>
+        Экономим ваше время и деньги
+      </h2>
+      <p class="subtitle col-md-10">
+        Мы знаем проверенных поставщиков в вашем городе и можем быстро узнать цены на строительные материалы.
+        Мы берем на себя все заботы по поиску лучших условий покупки.
+      </p>
+
+      <div class="economy-content">
+        <div class="item animated fadeInRight delay-1s">
+          <h4>
+            Покупайте
+          </h4>
+          <div class="item__list">
+            <ul>
+              <li><p class="bold">1</p>  <p class="item__list-text">Вы <a href="/">отправляете</a> нам заявку на строительные материал</p></li>
+              <li><p class="bold">2</p>  <p class="item__list-text">По каждому товару мы находим для вас лучшие цены среди всех поставщиков.</p></li>
+              <li><p class="bold">3</p> <p class="item__list-text">Вы получаете готовые варианты на оплату и выбираете подходящий.</p> </li>
+            </ul>
+          </div>
+
+
+          <figure>
+            <img src="../img/Illustrations-and-Icons/Buy-and-sell/Cart.svg" alt=""/>
+          </figure>
+
+        </div>
+
+        <div class="item animated fadeInRight delay-2s">
+          <h4>
+            Продавайте
+          </h4>
+          <div class="item__list">
+            <ul>
+              <li><p class="bold">1</p> <p class="item__list-text">Вы <a href="#">регистрируетесь</a> на сайте</p> </li>
+              <li><p class="bold">2</p> <p class="item__list-text">В личном кабинете видите заявки от покупателей.</p></li>
+              <li><p class="bold">3</p> <p class="item__list-text">Оцениваете заявки и система быстро формирует счета на оплату.</p></li>
+            </ul>
+          </div>
+
+
+          <figure>
+            <img src="../img/Illustrations-and-Icons/Buy-and-sell/Shelves.svg" alt=""/>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="new-order">
+    <div class="wrapper">
+      <h2>Новые заказы каждый день</h2>
+      <p class="subtitle">
+        Пользователи торговой платформы mySupl.ru ежедневно размещают более 560 заявок на строительные материалы.
+        Среди пользователей нашей платформы — компании малого и среднего бизнеса России, а так же  физические лица,
+        у которых можно купить или продать.
+        Платформа позволяет создавать быструю коммуникацию  между ними и сократить ваши затраты времени в 20-30 раз.
+      </p>
+
+
+      <div class="owl-carousel">
+
+        <div class="item">
+          <div class="owl-item__header">
+            <h4>
+              Заявка №0197
+            </h4>
+            <p class="time">Час назад</p>
+          </div>
+          <div class="owl-item__body">
+            <p class="owl-item__body-text">
+              Обои Пенза 58624601 0,53х10м Франция-01 фон винил
+            </p>
+            <p class="owl-item__body-quantity">
+              10 шт
+            </p>
+          </div>
+
+          <div class="owl-item__footer">
+            <div class="item-img">
+              <figure>
+                <img src="../img/Illustrations-and-Icons/Icon/Shop.svg" alt=""/>
+              </figure>
+              <p>Самовывоз</p>
+            </div>
+
+            <div class="item-img">
+              <figure>
+                <img src="../img/Illustrations-and-Icons/Icon/Calendar.svg" alt=""/>
+              </figure>
+              <p>До 26 декабря</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="owl-item__header">
+            <h4>
+              Заявка №0197
+            </h4>
+            <p class="time">Час назад</p>
+          </div>
+          <div class="owl-item__body">
+            <p class="owl-item__body-text">
+              Обои Пенза 58624601 0,53х10м Франция-01 фон винил
+            </p>
+            <p class="owl-item__body-quantity">
+              10 шт
+            </p>
+          </div>
+
+          <div class="owl-item__footer">
+            <div class="item-img">
+              <figure>
+                <img src="../img/Illustrations-and-Icons/Icon/Shop.svg" alt=""/>
+              </figure>
+              <p>Самовывоз</p>
+            </div>
+
+            <div class="item-img">
+              <figure>
+                <img src="../img/Illustrations-and-Icons/Icon/Calendar.svg" alt=""/>
+              </figure>
+              <p>До 26 декабря</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="owl-item__header">
+            <h4>
+              Заявка №0197
+            </h4>
+            <p class="time">Час назад</p>
+          </div>
+          <div class="owl-item__body">
+            <p class="owl-item__body-text">
+              Обои Пенза 58624601 0,53х10м Франция-01 фон винил
+            </p>
+            <p class="owl-item__body-quantity">
+              10 шт
+            </p>
+          </div>
+
+          <div class="owl-item__footer">
+            <div class="item-img">
+              <figure>
+                <img src="../img/Illustrations-and-Icons/Icon/Shop.svg" alt=""/>
+              </figure>
+              <p>Самовывоз</p>
+            </div>
+
+            <div class="item-img">
+              <figure>
+                <img src="../img/Illustrations-and-Icons/Icon/Calendar.svg" alt=""/>
+              </figure>
+              <p>До 26 декабря</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="owl-item__header">
+            <h4>
+              Заявка №0197
+            </h4>
+            <p class="time">Час назад</p>
+          </div>
+          <div class="owl-item__body">
+            <p class="owl-item__body-text">
+              Обои Пенза 58624601 0,53х10м Франция-01 фон винил
+            </p>
+            <p class="owl-item__body-quantity">
+              10 шт
+            </p>
+          </div>
+
+          <div class="owl-item__footer">
+            <div class="item-img">
+              <figure>
+                <img src="../img/Illustrations-and-Icons/Icon/Shop.svg" alt=""/>
+              </figure>
+              <p>Самовывоз</p>
+            </div>
+
+            <div class="item-img">
+              <figure>
+                <img src="../img/Illustrations-and-Icons/Icon/Calendar.svg" alt=""/>
+              </figure>
+              <p>До 26 декабря</p>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+    <a href="#" class="show-more">Посмотреть все заявки</a>
+
+  </div>
+
+</div>
+
+<div class="tarif">
+  <div class="wrapper">
+    <h2>Успей купить тариф «Стандарт» по цене «Старта»</h2>
+    <div class="content tarif-content">
+
+      <div class="tarif__item animated bounceInRight delay-1s">
+
+        <div class="top-line">
+          <h3>Пробный</h3>
+          <p>Предназначена для ознакомления</p>
+        </div>
+
+        <div class="tarif__item-content">
+          <ul>
+            <li>Доступна одна бесплатная заявка для покупателя  </li>
+            <li>Возможность ответить на заявку без доступа к контактам заказчика  </li>
+          </ul>
+        </div>
+        <div class="bottom-line">
+          <p class="text-bold">
+            Бесплатно
+          </p>
+          <a  href="#" class="begin">Начать бесплатно</a>
+        </div>
+      </div>
+
+      <div class="tarif__item tarif_item-big animated bounceInRight delay-2s">
+        <figure class="top-bow" >
+          <img src="../img/Illustrations-and-Icons/New-year/Bow.svg" alt=""/>
+        </figure>
+        <div class="top-line">
+          <h3>Стандарт</h3>
+        </div>
+
+        <div class="tarif__item-content">
+          <ul>
+            <li>100% доступ к заказам  </li>
+            <li>Доступ к контактам заказчиков</li>
+            <li>Приоритет в получении заказов</li>
+            <li>Приоритетный показ в списке компаний  </li>
+            <li>Сайт визитка вашей компании  </li>
+          </ul>
+        </div>
+        <div class="bottom-line">
+          <p class="price">60 000 ₽</p>
+          <div class="text-bold__block">
+            <p class="text-bold">
+              25 000 ₽
+            </p>
+            <p class="text-small">
+              на год
+            </p>
+          </div>
+
+          <a  href="#" class="begin">Начать на 58% дешевле</a>
+        </div>
+        <figure class="bottom-bow" >
+          <img src="../img/Illustrations-and-Icons/New-year/Ribbon.svg" alt=""/>
+        </figure>
+      </div>
+
+      <div class="tarif__item animated bounceInRight delay-3s">
+        <div class="top-line">
+          <h3>Старт</h3>
+        </div>
+
+        <div class="tarif__item-content">
+          <ul>
+            <li>100% доступ к заказам  </li>
+            <li>Доступ к контактам заказчиков</li>
+            <li>Приоритет в получении заказов</li>
+          </ul>
+        </div>
+        <div class="bottom-line bottom-btn">
+          <div class="text-bold__block">
+            <p class="text-bold">
+              25 000 ₽
+            </p>
+            <p class="text-small">на год</p>
+
+          </div>
+          <a href="#" class="begin">Начать на 25 000 ₽ в год</a>
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+  <div class="owl-carousel tarif-mobile">
+    <div class="item" style="width:100%">
+      <div class="carousel-tariff__item carousel-tariff__item-small">
+        <div class="tarif__item animated bounceInRight delay-1s">
+
+          <div class="top-line">
+            <h3>Пробный</h3>
+            <p>Предназначена для ознакомления</p>
+          </div>
+
+          <div class="tarif__item-content">
+            <ul>
+              <li>Доступна одна бесплатная заявка для покупателя  </li>
+              <li>Возможность ответить на заявку без доступа к контактам заказчика  </li>
+            </ul>
+          </div>
+          <div class="bottom-line">
+            <p class="text-bold">
+              Бесплатно
+            </p>
+            <a  href="#" class="begin">Начать бесплатно</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="item" style="width:100%">
+      <div class="carousel-tariff__item carousel-tariff__item-big ">
+        <div class="tarif__item tarif_item-big animated bounceInRight delay-2s">
+          <figure class="top-bow" >
+            <img src="../img/Illustrations-and-Icons/New-year/Bow.svg" alt=""/>
+          </figure>
+          <div class="top-line">
+            <h3>Стандарт</h3>
+          </div>
+
+          <div class="tarif__item-content">
+            <ul>
+              <li>100% доступ к заказам  </li>
+              <li>Доступ к контактам заказчиков</li>
+              <li>Приоритет в получении заказов</li>
+              <li>Приоритетный показ в списке компаний  </li>
+              <li>Сайт визитка вашей компании  </li>
+            </ul>
+          </div>
+          <div class="bottom-line">
+            <p class="price">60 000 ₽</p>
+            <div class="text-bold__block">
+              <p class="text-bold">
+                25 000 ₽
+              </p>
+              <p class="text-small">
+                на год
+              </p>
+            </div>
+
+            <a  href="#" class="begin">Начать на 58% дешевле</a>
+          </div>
+          <figure class="bottom-bow" >
+            <img src="../img/Illustrations-and-Icons/New-year/Ribbon.svg" alt=""/>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="item" style="width:100%">
+      <div class="carousel-tariff__item carousel-tariff__item-small start">
+        <div class="tarif__item animated bounceInRight delay-3s">
+          <div class="top-line">
+            <h3>Старт</h3>
+            <p>Предназначена для ознакомления</p>
+          </div>
+
+          <div class="tarif__item-content">
+            <ul>
+              <li>Доступна одна бесплатная заявка для покупателя  </li>
+              <li>Возможность ответить на заявку без доступа к контактам заказчика  </li>
+            </ul>
+          </div>
+          <div class="bottom-line bottom-btn">
+            <div class="text-bold__block">
+              <p class="text-bold">
+                25 000 ₽
+              </p>
+              <p class="text-small">на год</p>
+
+            </div>
+            <a href="#" class="begin">Начать на 25 000 ₽ в год</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <figure class="tree" >
+    <img src="../img/Illustrations-and-Icons/New-year/Tree.svg" alt=""/>
+  </figure>
+</div>
+
+
+
+
+<div class="customer">
+  <div class="wrapper">
+    <h2>
+      Наши клиенты
+    </h2>
+    <p class="subtitle">
+      Более 300 компаний доверили нам процесс снабжения стройматериалами
+    </p>
+
+
+    <div class="customer-content">
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Ahmetov_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Valdek_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Gran_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Gran_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Mag-stroy_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Timerline_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Ahmetov_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Mag-stroy_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Timerline_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Gran_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Ahmetov_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Valdek_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Mag-stroy_gray.png" alt=""/>
+      </div>
+
+      <div class="customer__item">
+        <img src="../img/Company-Logos/Valdek_gray.png" alt=""/>
+      </div>
+
+    </div>
+
+    <div class="owl-carousel customer-mobile tarif-mobile">
+
+
+      <div class="customer__item_block ">
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Gran_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Ahmetov_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Valdek_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Mag-stroy_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Valdek_gray.png" alt=""/>
+        </div>
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Ahmetov_gray.png" alt=""/>
+        </div>
+      </div>
+
+      <div class="customer__item_block ">
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Gran_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Ahmetov_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Valdek_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Mag-stroy_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Valdek_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Ahmetov_gray.png" alt=""/>
+        </div>
+      </div>
+
+      <div class="customer__item_block ">
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Gran_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Ahmetov_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Valdek_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Mag-stroy_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Valdek_gray.png" alt=""/>
+        </div>
+
+        <div class="customer__item">
+          <img src="../img/Company-Logos/Ahmetov_gray.png" alt=""/>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<div class="form__block">
+  <div class="wrapper">
+    <h2>
+      Свяжитесь с нами
+    </h2>
+    <p class="subtitle">
+      Мы перезвоним вам и ответим на все вопросы
+    </p>
+
+    <div class="form-content">
+      <div class="input__block">
+        <input class="name-input" id="name" type="text" placeholder="Ваше имя" />
+      </div>
+
+      <div class="input__block">
+        <input class="name-input" id="phone" type="text" placeholder="Ваш телефон"/>
+      </div>
+
+      <button class="orange__btn">Перезвоните мне</button>
+    </div>
+
+    <img class="bkg__img" src="../img/Photo/Helmet.jpg" alt=""/>
+  </div>
+
+</div>
+
+</div>
+
+<footer>
+  <div class="footer">
+    <div class="wrapper footer__wrapper">
+      <div class="first__block">
+        <ul>
+          <li class="logo">
+            <figure>
+              <img src="../img/Logo-gray.svg" alt=""/>
+            </figure>
+            <p class="small-text">Торговая платформа покупки и
+              продажи строительных материалов</p>
+          </li>
+          <li>
+            <p class="footer__text">© 2018 MySupl, Все права защищены.
+              Использование материалов с сайта только с согласия правообладателей</p>
+          </li>
+
+          <li>
+            <p class="footer__text">
+              г. Казань, ул. Шуртыгина д24, оф.1
+              ООО «Порт» ИНН/КПП: 1660315834 / 166001001, ОГРН: 1181690059528
+            </p>
+
+          </li>
+
+          <li class="document">
+            <a href="#">Правила сайта по работе с данными пользователей</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="second__block">
+        <ul>
+          <li><a href="#">Торговые компании</a></li>
+          <li><a href="#">Строительные компании</a></li>
+          <li><a href="#">Производители</a></li>
+        </ul>
+      </div>
+
+      <div class="third__block">
+        <ul>
+          <li class="phone">
+            <p>
+              8 800 123-45-67
+            </p>
+            <p class="small-text">Бесплатно по России</p>
+          </li>
+
+          <li>
+            <a class="grey__btn" href="#">Вход в личный кабинет</a>
+          </li>
+
+          <li>
+            <div class="social">
+              <a href="#">
+                <img src="../img/Illustrations-and-Icons/Social/YouTube.svg" alt=""/>
+              </a>
+
+              <a href="#">
+                <img src="../img/Illustrations-and-Icons/Social/facebook.svg" alt=""/>
+              </a>
+
+              <a href="#">
+                <img src="../img/Illustrations-and-Icons/Social/Instagram.svg" alt=""/>
+              </a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>

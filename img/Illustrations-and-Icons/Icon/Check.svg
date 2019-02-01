@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="9px" viewBox="0 0 10 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Check</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="000-Home" transform="translate(-515.000000, -3108.000000)" fill="#03983C">
+            <g id="Price" transform="translate(0.000000, 2670.000000)">
+                <g id="Group-2" transform="translate(170.000000, 109.000000)">
+                    <g id="2" transform="translate(179.000000, 0.000000)">
+                        <path d="M175.727067,329.272899 C175.363157,328.909034 174.77316,328.909034 174.40925,329.272899 L169.96101,335.721093 L167.590705,333.350788 C167.22684,332.986878 166.636798,332.986878 166.272933,333.350788 C165.909022,333.714698 165.909022,334.304695 166.272933,334.668605 L169.302169,337.697842 C169.484102,337.87982 169.722624,337.970786 169.961101,337.970786 C170.199577,337.970786 170.438054,337.87982 170.620032,337.697842 L175.727067,330.590716 C176.090978,330.226806 176.090978,329.636809 175.727067,329.272899 Z" id="Check"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

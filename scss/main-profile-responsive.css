@@ -1,0 +1,208 @@
+@media screen and (max-width: 480px) {
+  .tax-body .left-col .radio__group {
+    width: 100%;
+    margin: 15px 0;
+    flex-direction: column;
+    margin: 0; }
+    .tax-body .left-col .radio__group label {
+      font-size: 15px; } }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .tab-content__block .item-right {
+    width: 26%;
+    margin-left: 30px; }
+
+  .tab-content__item {
+    width: 70%; }
+
+  ul.description li {
+    margin-right: 45px; }
+
+  .offer-table__body ul.description li {
+    margin-right: 15px; }
+
+  .offer-table table .first-block {
+    padding-left: 20px; }
+
+  .offer-table.incomming-table.outgoing-table tr td.first-block {
+    width: 5%; }
+
+  .offer-table.incomming-table.outgoing-table tr td.four-block {
+    width: 7%; }
+
+  .description-content p.text {
+    width: 100%; }
+
+  .offer-table table .four-block {
+    padding-right: 20px; }
+
+  .offer-table .common-score, .offer-table .common-score__second {
+    width: 50%; }
+
+  .offer-table table .second-block {
+    width: 28%; }
+
+  td.left-col {
+    width: 76%; }
+
+  div.in-offer_block .headline-block h2 {
+    width: 50%; }
+
+  .offer-input__body {
+    width: 100%; }
+
+  .input-group_short {
+    width: 100%; }
+
+  .input__block textarea {
+    width: 100%; }
+
+  .delivery__body .input-group__short {
+    width: 95%; }
+
+  .tax-body .left-col .radio__group {
+    width: 100%; }
+
+  .tax-body .left-col .radio__group {
+    width: 100%;
+    margin: 15px 0;
+    flex-direction: column;
+    margin: 0; }
+    .tax-body .left-col .radio__group label {
+      font-size: 15px; } }
+@media screen and (min-width: 769px) and (max-width: 961px) {
+  .tab-content__item {
+    width: 60%; }
+
+  .tab-content__block .item-right {
+    width: 40%; }
+
+  .sidebar-header .logo-img {
+    display: none; }
+
+  ul.description li {
+    margin-right: 50px; }
+
+  .description-content p.text {
+    width: 67.53%; }
+
+  .input__block textarea {
+    width: 100%; }
+
+  .input-group p.currency {
+    right: 43%; }
+
+  .input-group_short {
+    width: 60%; }
+
+  .delivery__body .input-group__short {
+    width: 93%; }
+
+  .radio__group, .tax-body .input-group__short {
+    width: 59%; }
+
+  .tax-body .left-col .radio__group {
+    width: 100%;
+    margin: 15px 0;
+    flex-direction: column;
+    margin: 0; }
+    .tax-body .left-col .radio__group label {
+      font-size: 15px; }
+
+  div.in-offer_block .headline-block h2 {
+    width: 60%;
+    margin-right: 20px; }
+
+  .offer-table .common-score__second {
+    width: 55%; }
+
+  .common-score__block {
+    width: 45%; }
+
+  .offer__block ul li {
+    width: 33%;
+    margin-right: 20px; }
+
+  .products_block
+  .right-col .input-group_short {
+    width: 100%; }
+
+  .edit_block {
+    width: 100%; }
+
+  .width {
+    width: 215px !important; } }
+@media screen and (min-width: 962px) and (max-width: 1280px) {
+  .offer-table__headline {
+    width: 100%; }
+    .offer-table__headline .mark {
+      margin-right: 12px; }
+    .offer-table__headline .reject-label-white {
+      margin-left: 20px; }
+
+  .offer-input__body {
+    width: 73.8%; }
+
+  .input__block textarea {
+    width: 100%; }
+
+  .radio__group {
+    width: 50%; }
+
+  .delivery__body .input-group__short {
+    width: 85%; }
+
+  .tax-body .left-col .radio__group {
+    margin: 15px 0; }
+    .tax-body .left-col .radio__group label {
+      font-size: 15px; }
+
+  .offer-input__body {
+    width: 73.8%; }
+
+  .tax-body .left-col .radio__group {
+    width: 100%; }
+
+  .input-group p.currency {
+    right: 33%; } }
+@media screen and (max-width: 1150px) {
+  #sidebar {
+    min-width: 55px;
+    max-width: 55px;
+    transition: none; }
+    #sidebar ul li a figure {
+      margin: 0 50px 0 0; }
+      #sidebar ul li a figure img {
+        width: 35px; }
+    #sidebar .profile-name, #sidebar .small-text, #sidebar .logo-img {
+      display: none; }
+
+  .sidebar-header .logo-img {
+    display: none; }
+
+  .sidebar-body ul li a figure {
+    padding: 0 16px; }
+
+  #content {
+    width: 100%;
+    margin-left: 55px; }
+
+  #sidebar .sidebar-footer .sidebar-footer__top {
+    padding: 11px; }
+
+  .offer-table__headline {
+    width: 100%; }
+    .offer-table__headline .mark {
+      margin-right: 12px; }
+    .offer-table__headline .reject-label-white {
+      margin-left: 20px; } }
+@media screen and (min-width: 1281px) and (max-width: 1783px) {
+  #content {
+    margin-left: 287px; }
+
+  .tax-body .left-col .radio__group {
+    width: 100%;
+    margin: 15px 0; }
+    .tax-body .left-col .radio__group label {
+      font-size: 15px; } }
+
+/*# sourceMappingURL=main-profile-responsive.css.map */

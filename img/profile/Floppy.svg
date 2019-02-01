@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Floppy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Personal-Area-1280" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="121-In-Order.-Create-offer.-Edit" transform="translate(-1234.000000, -392.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Provider" transform="translate(270.000000, 380.000000)">
+                <path d="M964.998502,12 L977,12 L980,15 L980,27.0014977 C980,27.5529553 979.555369,28 978.999128,28 L965.000872,28 C964.448106,28 964,27.5553691 964,26.9991283 C964,26.9991283 964,13.5517464 964,13.0008717 C964,12.4499969 964.447489,12 964.998502,12 Z M978,16 L976,14 L976,19 L968,19 L968,14 L966,14 L966,26 L967,26 L967,21 L977,21 L977,26 L978,26 L978,16 Z M968,26 L976,26 L976,22 L968,22 L968,26 Z M969,14 L969,18 L975,18 L975,14 L969,14 Z M974,15 L974,17 L973,17 L973,15 L974,15 Z" id="Floppy"></path>
+            </g>
+        </g>
+    </g>
+</svg>

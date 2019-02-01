@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="text/css" http-equiv="Content-Style-Type">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1504.83">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/nice-select.css">
+  <link rel="stylesheet" href="../scss/style.css">
+  <link rel="stylesheet" href="../scss/responsive.css">
+  <link rel="stylesheet" href="../scss/fonts.css">
+  <link rel="stylesheet" href="../scss/datepicker.min.css">
+
+
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/owl.carousel.min.js"></script>
+  <script src="../js/datepicker.min.js"></script>
+  <script src="../js/jquery.nice-select.min.js" ></script>
+  <script src="../js/main.js"></script>
+  <title>Orders</title>
+
+</head>
+<body>
+<header>
+  <div class="header">
+    <div class="logo-block">
+      <div class="logo">
+        <a href="../html/index.html">
+          <figure>
+            <img alt="Alternative text" src="../img/Logo.svg"/>
+          </figure>
+        </a>
+      </div>
+      <p class="header-text">
+        Торговая платформа покупки и
+        продажи строительных материалов
+      </p>
+    </div>
+
+    <div class="info-block">
+      <p class="phone">
+        8 800 123-45-67
+      </p>
+      <div class="btn-group">
+        <a href="../html/reg-1-step.html" class="registrate">Зарегистрироваться</a>
+        <a href="../html/login.html" class="login">Войти</a>
+      </div>
+    </div>
+  </div>
+
+  <nav class="sub-menu navbar green-color white navbar-expand-lg navbar-light bg-light" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><img src="../img/Illustrations-and-Icons/MenuBurder.svg" alt=""></span>
+    </button>
+      <button class="navbar-toggler navbar-mob" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><img src="../img/MenuBurderGreen.svg" alt=""></span>
+      </button>
+    <div class="logo-mob">
+      <figure>
+        <a href="../html/index.html"><img src="../img/Logo.svg" alt=""></a>
+      </figure>
+    </div>
+    <div class="login-mob">
+      <fugure>
+        <a href="../html/login.html"><img src="../img/Illustrations-and-Icons/Icon/enter.png" alt=""></a>
+      </fugure>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar">
+        <li><a href="#">Торговые компании</a></li>
+        <li><a href="#">Строительные компании</a></li>
+        <li><a href="#">Производители</a></li>
+        <li><a href="#">О проекте</a></li>
+        <li><a href="#">Партнерская программа</a></li>
+      </ul>
+    </div>
+
+
+
+  </nav>
+
+  <div class="modal fade registrate__modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="grey__body">
+<div class="wrapper">
+
+  <h2>Заявка на строительные материалы</h2>
+  <div class=" orders__wrapper">
+
+    <div class="orders">
+
+      <div class="orders_content">
+
+        <div class="order_content__item hideme">
+     <span class="close-btn">
+          <img src="../img/Illustrations-and-Icons/Icon/Cross.svg" alt="">
+        </span>
+          <div>
+            <label>Наименование товара</label>
+            <div class="order__body">
+              <div class="input__block">
+                <label class="example" for="productType">Название товара</label>
+                <input class="product-type" id="productType1" type="text" >
+              </div>
+
+              <div class="input-group">
+                <div class="input__block quantity">
+                  <label class="example ">Кол-во</label>
+                  <input class="product-type"/>
+                </div>
+
+                <div class="input__block quantity">
+                  <select>
+                    <option>шт</option>
+                    <option>шт</option>
+
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="order__body">
+              <div class="coment">
+                <label>Комментарий к заказу</label>
+
+                <div class="input__block">
+                  <label class="example">Материалы, размеры, характеристики</label>
+                  <textarea class="product-type" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-line">
+              <span class="choose"> <figure><img src="../img/Illustrations-and-Icons/Icon/Clip.svg" alt=""></figure> Прикепить файл</span>
+              <input type="file" class="custom-file-input" id="validatedCustomFile" required>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="order_content__item hideme">
+     <span class="close-btn">
+          <img src="../img/Illustrations-and-Icons/Icon/Cross.svg" alt="">
+        </span>
+          <div>
+            <label>Наименование товара</label>
+            <div class="order__body">
+              <div class="input__block">
+                <label class="example" for="productType">Название товара</label>
+                <input class="product-type" id="productType" type="text" >
+              </div>
+<div class="input-group">
+    <div class="input__block quantity">
+        <label class="example ">Кол-во</label>
+        <input class="product-type"/>
+    </div>
+
+  <div class="input__block quantity">
+    <select>
+      <option>шт</option>
+      <option>шт</option>
+    </select>
+  </div>
+</div>
+
+            </div>
+            <div class="order__body">
+              <div class="coment">
+                <label>Комментарий к заказу</label>
+
+                <div class="input__block">
+                  <label class="example">Материалы, размеры, характеристики</label>
+                  <textarea class="product-type" name="" id="" cols="30" rows="10"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="bottom-line">
+              <span class="choose"> <figure><img src="../img/Illustrations-and-Icons/Icon/Clip.svg" alt=""></figure> Прикепить файл</span>
+              <input type="file" class="custom-file-input" id="validatedCustomFile1" required>
+
+            </div>
+          </div>
+        </div>
+        <div class="add__btn clearfix">
+          <button class="add" ><span>+</span> Добавить товар</button>
+        </div>
+
+        <div class="order_content__item">
+
+          <h3>Какой вариант заказа вас интересует?</h3>
+
+          <div class="order-block">
+            <div class="radio__group">
+              <div class="radio">
+                <input id="radio-3" name="radio1" type="radio" checked>
+                <label for="radio-3" class="radio-label">Разовая покупка</label>
+              </div>
+
+              <div class="radio">
+                <input id="radio-4" name="radio1" type="radio" >
+                <label for="radio-4" class="radio-label">Постоянная закупка</label>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="period-block period">
+              <label> Укажите периодичность поставок</label>
+            <div class="input__block ">
+              <label class="example">Например раз в месяц</label>
+              <input class="product-type" type="text"/>
+            </div>
+          </div>
+
+
+          <h3 class="delivery">Выберите вариант доставки</h3>
+          <div class="delivery-block">
+            <div class="radio__group">
+              <div class="radio">
+                <input id="radio-1" name="radio2" type="radio" checked>
+                <label for="radio-1" class="radio-label">Доставка по адресу</label>
+              </div>
+
+              <div class="radio">
+                <input id="radio-2" name="radio2" type="radio"  >
+                <label for="radio-2" class="radio-label">Самовывоз</label>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="period-block period">
+              <label class="example">Куда доставить?</label>
+            <div class="input__block ">
+                <label class="example">Укажите город и адрес доставки</label>
+              <input  class="product-type" type="text"/>
+            </div>
+          </div>
+
+          <div class="period-block period__block">
+            <div class="input__block period">
+              <label > Укажите периодичность поставок</label>
+              <div class="datepicker__item">
+                <img src="../img/Illustrations-and-Icons/Icon/Calendar-gray.svg" alt="">
+                <input placeholder="Укажите дату" type='text' class="datepicker-here" data-position="bottom left" />
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="order__btn">
+          <button class="orange__btn">Продолжить</button>
+        </div>
+      </div>
+    </div>
+
+    <!--right-->
+    <div class="additional right__block">
+      <div class="additional__item">
+        <figure>
+          <img src="../img/Illustrations-and-Icons/Advantages/Debt.svg" alt=""/>
+        </figure>
+        <p>
+          Запрос цен со всех поставщиков одной заявкой
+        </p>
+      </div>
+
+      <div class="additional__item">
+        <figure>
+          <img src="../img/Illustrations-and-Icons/Advantages/Consumer.svg" alt=""/>
+        </figure>
+        <p>
+          Менеджер свяжется с вами, проконсультирует по товарам,  ответит на вопросы
+        </p>
+      </div>
+      <div class="additional__item">
+        <figure>
+          <img src="../img/Illustrations-and-Icons/Advantages/Agreement.svg" alt=""/>
+        </figure>
+        <p>
+          Менеджер свяжется с вами, проконсультирует по товарам,  ответит на вопросы
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer>
+  <div class="footer">
+    <div class="wrapper footer__wrapper">
+<div class="first__block">
+  <ul>
+    <li class="logo">
+      <figure>
+        <img src="../img/Logo-gray.svg" alt="">
+      </figure>
+      <p class="small-text">Торговая платформа покупки и
+        продажи строительных материалов</p>
+    </li>
+    <li>
+<p class="footer__text">© 2018 MySupl, Все права защищены.
+  Использование материалов с сайта только с согласия правообладателей</p>
+    </li>
+
+    <li>
+      <p class="footer__text">
+        г. Казань, ул. Шуртыгина д24, оф.1
+        ООО «Порт» ИНН/КПП: 1660315834 / 166001001, ОГРН: 1181690059528
+      </p>
+
+    </li>
+
+    <li class="document">
+      <a href="#">Правила сайта по работе с данными пользователей</a>
+    </li>
+  </ul>
+
+</div>
+
+      <div class="second__block">
+        <ul>
+          <li><a href="#">Торговые компании</a></li>
+          <li><a href="#">Строительные компании</a></li>
+          <li><a href="#">Производители</a></li>
+        </ul>
+      </div>
+
+      <div class="third__block">
+        <ul>
+          <li class="phone">
+            <p>
+              8 800 123-45-67
+            </p>
+            <p class="small-text">Бесплатно по России</p>
+          </li>
+
+          <li>
+            <a class="grey__btn" href="#">Вход в личный кабинет</a>
+          </li>
+
+          <li>
+            <div class="social">
+              <a href="#">
+                <img src="../img/Illustrations-and-Icons/Social/YouTube.svg" alt="">
+              </a>
+
+              <a href="#">
+                <img src="../img/Illustrations-and-Icons/Social/facebook.svg" alt="">
+              </a>
+
+              <a href="#">
+                <img src="../img/Illustrations-and-Icons/Social/Instagram.svg" alt="">
+              </a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+
+
+<script>
+  $('.close-btn').on('click', function(){
+    $(this).closest('.hideme').hide();
+  });
+</script>
+
+<script>
+  $(document).ready(function() {
+    $('select').niceSelect();
+  });
+</script>
+
+</body>
+
+
+
+
+</html>

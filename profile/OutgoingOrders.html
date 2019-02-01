@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Incomming</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/nice-select.css">
+    <link rel="stylesheet" href="../scss/main-profile.css"/>
+    <link rel="stylesheet" href="../scss/main-profile-responsive.css"/>
+    <link rel="stylesheet" href="../scss/fonts.css"/>
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.nice-select.min.js" ></script>
+    <script src="../js/main-profile.js"></script>
+
+</head>
+<body>
+<div class="wrapper gray-body">
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <a href="#"><img src="../img/profile/arrow-back.svg" alt="">
+                <img src="../img/logo-profile.svg" class="logo-img" alt=""></a>
+        </div>
+
+        <div class="sidebar-body">
+            <ul class="list-unstyled components">
+                <!--<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>-->
+                <li class="active ">
+
+                    <a href="#">
+                        <figure><img src="../img/profile/Menu/InOffers.svg" alt=""> </figure>
+
+                        Входящие заявки
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <figure><img src="../img/profile/Menu/InOrder.svg" alt=""> </figure>
+                        Исходящие заявки</a>
+                </li>
+                <li  class="">
+                    <a href="#">
+                        <figure><img src="../img/profile/Menu/OutOffers.svg" alt=""> </figure>
+                        Входящие предложения</a>
+                </li>
+                <li  class="">
+                    <a href="#">
+                        <figure><img src="../img/profile/Menu/OutOrder.svg" alt=""> </figure>
+                        Исходящие предложения</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="sidebar-footer">
+            <div class="sidebar-footer__top">
+                <div class="name">
+                    <div class="profile-photo">
+
+                    </div>
+                    <p class="profile-name">
+                        Константинопольский Константин
+                    </p>
+                    <p class="small-text">
+                        ООО "Механический завод"
+                    </p>
+                </div>
+            </div>
+            <div class="exit">
+                <a href="#"><img src="../img/Illustrations-and-Icons/Icon/enter.png" alt="">Выход</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <div id="content">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light mobile-navbar">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span>Toggle Sidebar</span>
+                </button>
+            </nav>
+        </div>
+
+        <div class="content-body in-offer_block incomming">
+            <div class="headline-block">
+                <h2>
+                   Исходящие заявки
+                </h2>
+            </div>
+
+            <div class="incomming-content">
+
+            <div class="offer-table incomming-table">
+                        <table>
+                    <thead>
+                    <tr>
+                        <td class="headline-text first-block">Номер</td>
+                        <td class="headline-text second-block blue-text">поступила</td>
+                        <td class="headline-text third-block">товары</td>
+                        <td class="headline-text four-block">Статусы</td>
+                        <td class="headline-text five-block">Предложения</td>
+                        <td class="headline-text six-block">Действует до</td>
+                        <td class="headline-text seven-block"></td>
+                    </tr>
+                    </thead>
+
+                    <tbody>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="wait">
+                          Активная
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                       19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="done-text">
+                            Выполнена
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="reject">
+                            Отклонена
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="wait">
+                            Активная
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="reject">
+                            Отклонена
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="reject">
+                            Отклонена
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="wait">
+                            Активная
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="wait">
+                            Активная
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="wait">
+                            Активная
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="wait">
+                            Активная
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="first-block text-bold">
+                            0917
+                        </td>
+
+                        <td>
+                            Вчера в 23:10
+                        <td>
+                            8
+                        </td>
+
+                        <td class="wait">
+                            Активная
+                        </td>
+
+                        <td>
+                            7
+                        </td>
+
+                        <td>
+                            19 января 2018год
+                        </td>
+
+                        <td class="seven-block">
+                            <div class="dropdown">
+                                <button class="dropbtn">
+                                    <span></span>
+                                </button>
+                                <div class="dropdown-content">
+                                    <p>пункт 1</p>
+                                    <p>пункт 2</p>
+                                    <p>пункт 3</p>
+
+                                </div>
+                            </div>
+
+                        </td>
+                    </tr>
+
+
+
+
+
+
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!--<div class="button-block">-->
+            <!--<a href="#" class="blue-button btn">Составить новое предложение</a>-->
+        <!--</div>-->
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

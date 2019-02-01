@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="32px" viewBox="0 0 14 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow left</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="000-Home" transform="translate(-22.000000, -2317.000000)" fill="#CCCCCC" fill-rule="nonzero">
+            <g id="Orders" transform="translate(0.000000, 1890.000000)">
+                <path d="M35.7071068,428.707107 C36.0976311,428.316582 36.0976311,427.683418 35.7071068,427.292893 C35.3165825,426.902369 34.6834175,426.902369 34.2928932,427.292893 L22.2928932,442.292893 C21.9023689,442.683418 21.9023689,443.316582 22.2928932,443.707107 L34.2928932,458.707107 C34.6834175,459.097631 35.3165825,459.097631 35.7071068,458.707107 C36.0976311,458.316582 36.0976311,457.683418 35.7071068,457.292893 L24.4142136,443 L35.7071068,428.707107 Z" id="Arrow-left"></path>
+            </g>
+        </g>
+    </g>
+</svg>

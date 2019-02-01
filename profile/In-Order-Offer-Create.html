@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>In-order</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/nice-select.css">
+    <link rel="stylesheet" href="../scss/main-profile.css"/>
+    <link rel="stylesheet" href="../scss/main-profile-responsive.css"/>
+    <link rel="stylesheet" href="../scss/fonts.css"/>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.nice-select.min.js"></script>
+    <script src="../js/main-profile.js"></script>
+
+</head>
+<body>
+<div class="wrapper gray-body">
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <a href="#"><img src="../img/profile/arrow-back.svg" alt="">
+                <img class="logo-img" src="../img/logo-profile.svg" alt=""></a>
+        </div>
+
+        <div class="sidebar-body">
+            <ul class="list-unstyled components">
+                <!--<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>-->
+                <li class="active ">
+                    <a href="#">
+                        <figure><img src="../img/profile/Menu/InOffers.svg" alt=""></figure>
+                        Входящие заявки
+                    </a>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <figure><img src="../img/profile/Menu/InOrder.svg" alt=""></figure>
+                        Исходящие заявки</a>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <figure><img src="../img/profile/Menu/OutOffers.svg" alt=""></figure>
+                        Входящие предложения</a>
+                </li>
+                <li class="">
+                    <a href="#">
+                        <figure><img src="../img/profile/Menu/OutOrder.svg" alt=""></figure>
+                        Исходящие предложения</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="sidebar-footer">
+            <div class="sidebar-footer__top">
+                <div class="name">
+                    <div class="profile-photo">
+
+                    </div>
+                    <p class="profile-name">
+                        Константинопольский Константин
+                    </p>
+                    <p class="small-text">
+                        ООО "Механический завод"
+                    </p>
+                </div>
+            </div>
+            <div class="exit">
+                <a href="#"><img src="../img/Illustrations-and-Icons/Icon/enter.png" alt="">Выход</a>
+            </div>
+        </div>
+
+    </nav>
+
+    <div id="content">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light mobile-navbar">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span>Toggle Sidebar</span>
+                </button>
+            </nav>
+        </div>
+
+        <h2></h2>
+
+        <div class="content-body in-offer_block">
+            <div class="headline-block">
+                <h2>
+                    Входящая заявка <span>454857</span>
+                </h2>
+
+                <p class="status status-active">
+                    Ожидает предложения
+                </p>
+            </div>
+            <div class="description-body">
+                <ul class="description">
+                    <li class="sent">
+                        <p class="headline-text">
+                            Поступила
+                        </p>
+
+                        <p class="description-text">
+                            Сегодня в 9:41
+                        </p>
+                    </li>
+
+                    <li class="response">
+                        <p class="headline-text">
+                            Действует до
+                        </p>
+
+                        <p class="description-text">
+                            Сегодня в 9:41
+                        </p>
+
+                    </li>
+
+                    <li class="response">
+                        <div class="description-text ">
+                            <div class="reject-label  flexible">
+                                <p class="mark red-label">!</p>
+                                <p class="reject">Осталось 3 дня</p>
+                            </div>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="description-content tax__block">
+                <div class="offer-table offer__block customer_block">
+                    <div class="offer-table__header">
+                        <h3>Покупатель</h3>
+                    </div>
+                    <div class="offer-table__body">
+                        <ul class="description">
+                            <li>
+                                <p class="headline-text">
+                                    имя
+                                </p>
+
+                                <p class="description-text">
+                                    Александр Афанасьевич Коробейников
+                                </p>
+                            </li>
+
+                            <li class="width">
+                                <p class="headline-text">
+                                    Наименование компании
+                                </p>
+
+                                <p class="description-text">
+                                    ООО «Домстрой и комфорт Астрахань»
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="headline-text">
+                                    Телефон
+                                </p>
+
+                                <p class="description-text">
+                                    +7 (912) 123-45-67
+                                </p>
+                            </li>
+                        </ul>
+
+                        <ul class="description">
+                            <li>
+                                <p class="headline-text">
+                                    Тип закупки
+                                </p>
+
+                                <p class="description-text">
+                                    Постоянная
+                                </p>
+                            </li>
+
+                            <li class="width">
+                                <p class="headline-text">
+                                    Периодичность
+                                </p>
+
+                                <p class="description-text">
+                                    Раз в 2 недели по 12 тонн
+                                </p>
+                            </li>
+
+                            <li>
+                                <p class="headline-text">
+                                    Доставка
+                                </p>
+
+                                <p class="description-text">
+                                    г. Казань, ул. Малая Донская 72, стр. 8 к. 9
+                                </p>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="offer-table offer__block provider_block">
+                    <div class="offer-table__header flexible ">
+                        <div class="fl-start__block offer-table__headline">
+                            <h3>Поставщик</h3>
+                            <div class="reject-label-white">
+                                <p class="mark white-label">!</p>
+                                <p class="white-text">Проверьте ваши реквизиты.
+                                    Они будут использованы для выставления счета покупателю.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <a href="#" id="edit"><img src="../img/pencil.svg" alt=""></a>
+                            <a href="#" id="save"><img src="../img/profile/Floppy.svg" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="offer-input__body edit_block">
+                        <div class="input-group">
+                            <div class="input-item">
+                                <label>Наименование компании</label>
+                                <input type="text" value="OOO Дом и комфорт Астрахань" disabled>
+                            </div>
+                                <div class="input-item">
+                                <label>Фактический адрес</label>
+                                <input type="text" value="г. Астрахань, ул. Ленина, 56" disabled>
+                            </div>
+
+                        </div>
+
+                        <div class="input-group input-group__long">
+                            <div class="input-item">
+                                <label>инн</label>
+                                <input type="text" value="1660241773" disabled>
+                            </div>
+
+                            <div class="input-item">
+                                <label>кпп</label>
+                                <input type="text" value="1660241773" disabled>
+                            </div>
+
+                            <div class="input-item">
+                                <label>расчетный счет</label>
+                                <input type="text" value="166024177356987" disabled>
+                            </div>
+                        </div>
+
+                        <div class="input-group input-group__long">
+                            <div class="input-item">
+                                <label>Корреспондентский счет</label>
+                                <input type="text" value="1660241773" disabled>
+                            </div>
+
+                            <div class="input-item">
+                                <label>БИК банка</label>
+                                <input class="edited" type="text" value="4660241773" disabled>
+                            </div>
+
+                            <div class="input-item">
+                                <label>Наименование банка</label>
+                                <input type="text" value="ПАО Сбербанк" disabled>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="offer-table offer__block product">
+                    <div class="offer-table__header">
+                        <h3>Товар</h3>
+                    </div>
+                    <div class="offer-table__body">
+                        <table class="products_block">
+                            <tbody>
+                            <tr>
+                                    <td class="left-col">
+                                        <div class="left-item">
+                                            <div>
+                                                <p class="headline-text">
+                                                    Наименование товара
+                                                </p>
+
+                                                <p class="description-text text-bold">
+                                                    Черепица гибкая Shinglas Ранчо (драконий зуб) двухслойная
+                                                </p>
+                                            </div>
+
+                                            <div>
+                                                <p class="headline-text">
+                                                    Комментарий по товару
+                                                </p>
+
+                                                <p class="description-text">
+                                                    Течение среды перпендикулярно. Популяционный индекс, в рамках
+                                                    ограничений
+                                                    классической механики, составляет амфибол.
+                                                    Приливное трение, скажем, за 100 тысяч лет, спонтанно отталкивает
+                                                    межпластовый бозе-конденсат
+                                                </p>
+                                            </div>
+                                            <div class="download__block">
+                                                <a href="#" download="">Photo_img_tyuiojnfmvcnx456789.jpg</a>
+                                                <a href="#" download="">Photo_img_tyuiojnfmvcnx456789.jpg</a>
+
+                                            </div>
+                                        </div>
+                                        <div class="right-item">
+                                            <p class="headline-text">
+                                                кол-во
+                                            </p>
+
+                                            <p class="description-text">
+                                                20 упак.
+                                            </p>
+                                        </div>
+
+                                    </td>
+                                    <td class="right-col">
+                                        <div class="input-group_short">
+                                            <label class="headline-text">Изменить количество</label>
+                                            <div class="input-group">
+
+                                                <div class="input-item quantity">
+
+                                                    <input class="product-type">
+                                                </div>
+
+                                                <div class="input-item quantity">
+                                                    <select style="display: none;">
+                                                        <option>шт</option>
+                                                        <option>шт</option>
+                                                    </select>
+                                                    <div class="nice-select" tabindex="0"><span
+                                                            class="current">шт</span>
+                                                        <ul class="list">
+                                                            <li data-value="шт" class="option selected focus">шт</li>
+                                                            <li data-value="шт" class="option">шт</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="coment">
+                                            <label class="headline-text">Почему изменилось количество</label>
+
+                                            <div class="input__block">
+                                                <label class="example">Материалы, размеры, характеристики</label>
+                                                <textarea class="product-type" name="" cols="30" rows="10"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="input-group_short">
+                                            <label class="headline-text">Стоимость</label>
+                                            <div class="input-group">
+                                                <div class="input-item quantity">
+                                                    <input class="product-type">
+                                                </div>
+                                                <p class="currency">₽</p>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                <td class="del-body">
+                                    <button class="hide-btn">
+                                        <img src="../img/profile/Minus.svg" alt="">
+                                    </button>
+                                    <div class="del-product">
+                                        <button class="del-product_close"><img src="../img/profile/Plus.svg" alt="">
+                                        </button>
+                                        <p class="reject">
+                                            Этот товар не будет отображаться в вашем предложении
+                                        </p>
+                                        <div class="bkgr-white"></div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+
+                                <td class="left-col">
+                                    <div class="left-item">
+                                        <div>
+                                            <p class="headline-text">
+                                                Наименование товара
+                                            </p>
+
+                                            <p class="description-text text-bold">
+                                                Черепица гибкая Shinglas Ранчо (драконий зуб) двухслойная
+                                            </p>
+                                        </div>
+
+                                        <div>
+                                            <p class="headline-text">
+                                                Комментарий по товару
+                                            </p>
+
+                                            <p class="description-text">
+                                                Течение среды перпендикулярно. Популяционный индекс, в рамках
+                                                ограничений
+                                                классической механики, составляет амфибол.
+                                                Приливное трение, скажем, за 100 тысяч лет, спонтанно отталкивает
+                                                межпластовый бозе-конденсат
+                                            </p>
+                                        </div>
+                                        <div class="download__block">
+                                            <a href="#" download="">Photo_img_tyuiojnfmvcnx456789.jpg</a>
+                                            <a href="#" download="">Photo_img_tyuiojnfmvcnx456789.jpg</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="right-item">
+                                        <p class="headline-text">
+                                            кол-во
+                                        </p>
+
+                                        <p class="description-text">
+                                            20 упак.
+                                        </p>
+                                    </div>
+
+                                </td>
+                                <td class="right-col">
+                                    <div class="input-group_short">
+                                        <label class="headline-text">Изменить количество</label>
+                                        <div class="input-group">
+
+                                            <div class="input-item quantity">
+
+                                                <input class="product-type">
+                                            </div>
+
+                                            <div class="input-item quantity">
+                                                <select style="display: none;">
+                                                    <option>шт</option>
+                                                    <option>шт</option>
+                                                </select>
+                                                <div class="nice-select" tabindex="0"><span
+                                                        class="current">шт</span>
+                                                    <ul class="list">
+                                                        <li data-value="шт" class="option selected focus">шт</li>
+                                                        <li data-value="шт" class="option">шт</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="coment">
+                                        <label class="headline-text">Почему изменилось количество</label>
+
+                                        <div class="input__block">
+                                            <label class="example">Материалы, размеры, характеристики</label>
+                                            <textarea class="product-type" name="" cols="30" rows="10"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="input-group_short">
+                                        <label class="headline-text">Стоимость</label>
+                                        <div class="input-group">
+                                            <div class="input-item quantity">
+                                                <input class="product-type">
+                                            </div>
+                                            <p class="currency">₽</p>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="del-body">
+                                    <button class="hide-btn">
+                                        <img src="../img/profile/Minus.svg" alt="">
+                                    </button>
+                                    <div class="del-product">
+                                        <button class="del-product_close"><img src="../img/profile/Plus.svg" alt="">
+                                        </button>
+                                        <p class="reject">
+                                            Этот товар не будет отображаться в вашем предложении
+                                        </p>
+                                        <div class="bkgr-white"></div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+                <div class="offer-table offer__block delivery__body">
+                    <div class="offer-table__header">
+                        <h3>Доставка</h3>
+                    </div>
+                    <div class="offer-table__body">
+                        <table class="products_block">
+                            <tr>
+                                <td class="left-col">
+                                    <div class="left-item">
+                                        <div class="delivery__block fl-start__block">
+                                            <img src="../img/profile/shape.svg" alt="">
+
+                                            <div class="delivery__description">
+                                                <p class="headline-text">
+                                                    Доставка
+                                                </p>
+
+                                                <p class="description-text">
+                                                    г. Казань, ул. Донская 72, стр. 8
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+
+                                <td class="right-col">
+                                    <div class="input-group input-group__short ">
+                                        <div class="input-item quantity">
+                                            <label class="headline-text">Стоимость</label>
+
+                                            <div class="input-item__currency">
+                                                <input class="product-type">
+                                                <p class="currency">₽</p>
+                                            </div>
+
+                                            </div>
+
+                                        <div class="input-item quantity">
+                                            <label class="headline-text">Срок доставки</label>
+                                        <div class="input-item__currency">
+                                            <input class="product-type">
+                                            <p class="currency">Дней</p>
+                                        </div>
+                                        </div>
+                                        </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+
+                </div>
+
+                <div class="offer-table offer__block tax__block">
+                    <div class="offer-table__header">
+                        <h3>НДС</h3>
+                    </div>
+                    <div class="offer-table__body ">
+                        <div class="tax-body flexible">
+                            <table class="products_block">
+                                <tr>
+                                    <td class="left-col">
+                                        <div class="radio__group">
+                                            <div class="radio">
+                                                <input id="radio-1" name="radio2" type="radio" checked>
+                                                <label for="radio-1" class="radio-label">Без НДС</label>
+                                            </div>
+
+                                            <div class="radio">
+                                                <input id="radio-2" name="radio2" type="radio">
+                                                <label for="radio-2" class="radio-label">Включить НДС</label>
+                                            </div>
+
+                                            <div class="radio">
+                                                <input id="radio-3" name="radio2" type="radio">
+                                                <label for="radio-3" class="radio-label">НДС сверху</label>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="right-col">
+                                        <div class="input-group_short">
+                                            <label class="headline-text">Ставка</label>
+                                            <div class="input-group">
+                                                <div class="input-item quantity">
+                                                    <select style="display: none;">
+                                                        <option>-</option>
+                                                        <option>-</option>
+                                                    </select>
+                                                    <div class="nice-select" tabindex="0"><span class="current">-</span>
+                                                        <ul class="list">
+                                                            <li data-value="-" class="option selected focus">-</li>
+                                                            <li data-value="-" class="option">шт</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            <div>
+
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="common-score__block clearfix">
+                        <div class="flexible score__item ">
+                            <p class="big-text">
+                                Итого:
+                            </p>
+                            <p class="price">
+                                90 000 ₽
+                            </p>
+                        </div>
+
+                        <div class="flexible score__item ">
+                            <p class="big-text">
+                                Включая НДС:
+                            </p>
+                            <p class="price">
+                                2 012 ₽
+                            </p>
+                        </div>
+
+                        <div class="flexible score__item ">
+                            <p class="big-text">
+                                Всего к оплате:
+                            </p>
+                            <p class="price">
+                                92 012 ₽
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-block">
+                    <button class="btn show-score-btn">
+                        Посмотреть счет
+                    </button>
+
+                    <button class="blue-button btn" type="submit">Отправить предложение на 92 012 ₽</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('select').niceSelect();
+    });
+</script>
+
+</body>
+</html>
